@@ -1,0 +1,93 @@
+:root {
+    /* цветовые переменные */
+    /* цвета текста и фона */
+    --main-text-color: #1B1B1B;                    
+    --button-background-color: #1664EA;                     
+    --button-text-color: #FFFFFF;                   
+    --background-color: #FFFFFF;                      
+    
+    /*доп. цвета */
+    --accent-color: #FFDA74;                  
+    --accent-blue-color: #1664EA;                   
+    --gray-light: #D9D8D9;                    
+    --gray-medium: #e0e0e0;                   
+    --footer-background-color: #252525;   
+
+    /* текстовые переменные */
+    
+    /* Шрифт */
+    --font-family: 'Inter', sans-serif;     
+    
+    /* Размеры шрифтов */
+    --font-size-small-2: 10px;                     
+    --font-size-small: 12px;                     
+    --font-size-main: 14px;                   
+    --font-size-medium: 16px;                     
+    --font-size-large: 20px;                    
+    --font-size-1big: 24px;                     
+    --font-size-2big: 40px;                    
+    --font-size-3big: 100px;                   
+    
+    /* стили шрифта */
+    --font-weight-normal: 400;               
+    --font-weight-bold: 700;                  
+    
+    /* интервалы текста */
+    --line-height-tight: 100%;                
+    --line-height-normal: 120%;               
+    --line-height-large: 140%; 
+
+    /* переменные отступа*/
+    
+    /* Отступы (система spacing scale) */
+    --spacing-very-small: 4px;                        
+    --spacing-small: 8px;                        
+    --spacing-medium: 14px;                       
+    --spacing-large: 20px;                      
+    --spacing-1big: 30px;                      
+    --spacing-2big: 40px;                     
+    --spacing-3big: 50px;                      
+    --spacing-4big: 60px;                      
+    
+    /* переменные размеров */
+    
+    /* Фиксированные размеры элементов */
+    --header-height: 52px;                   
+    --button-height: 52px;                    
+    --container-width: 1440px;                
+    --section-min-height: 637px;              
+    
+    /* переменные для скругления  */
+    
+    /* Радиусы скругления углов (от меньшего к большему) */
+    --border-radius-small: 2px;                  
+    --border-radius-medium: 4px;                  
+    --border-radius-large: 5px;                  
+    --border-radius-1big: 10px;                 
+    --border-radius-2big: 49px;                
+    
+    /* переменные для эффектов */
+    
+    /* Визуальные эффекты */
+    --shadow-variable: 3px 3px 3px 0 rgba(0, 0, 0, 0.508); 
+    --overlay-for-image: rgba(0, 0, 0, 0.3);            
+    
+    /* Прозрачность  */
+    --opacity-low: 0.25;                      
+    --opacity-medium: 0.3;                    
+    --opacity-high: 0.5;                      
+}
+
+.dark-theme {
+            --text-color: #FFFFFF;                                    
+            --button-text: #FFFFFF;                  
+            --bg-color: #303030;                      
+            --accent-color: #252525;                 
+            --accent-blue: #4A90E2;                   
+            --gray-light: #252525;                    
+            --gray-medium: #424242;                    
+            --footer-background: #252525;                    
+            --card-background-color-dark: #1E1E1E;                       
+            --input-background-color-vdark: #2D2D2D;                      
+}
+

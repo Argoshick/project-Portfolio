@@ -1,0 +1,107 @@
+.experience-section {
+   
+    height: 1000px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+    margin-top: 40px;
+    padding: 60px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.experience_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-main);
+    line-height: var(--line-height-large);
+    letter-spacing: 3px;
+    opacity: var(--opacity-medium);
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    color: var(--main-text-color);
+}
+
+.experience-h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-2big);
+    line-height: var(--line-height-normal);
+    margin-top: var(--spacing-1big);
+    text-align: center;
+    width: 100%;
+    color: var(--main-text-color);
+}
+
+.experience_title-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-large);
+    margin-top: var(--spacing-medium);
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--main-text-color);
+    margin-bottom: 70px
+}
+
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.experience-card {
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 560px;
+    height: 338px;
+    background-color: var(--card-background-color-dark);
+}
+
+.experience-card h3 {
+    font-size: var(--font-size-large);
+    color: var(--main-text-color);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 10px;
+}
+
+.experience-card p {
+    font-size: var(--font-size-medium);
+    color: var(--text-color);
+    line-height: var(--line-height-large);
+    margin-bottom: 25px;
+    width: 430px;
+    opacity: 0.8;
+}
+
+.experience-card h2 {
+    font-size: var(--font-size-3big);
+    font-weight: var(--font-weight-bold);
+    color: var(--main-text-color);
+    margin: 0;
+    margin-top: 80px;
+    opacity: 0.9;
+}

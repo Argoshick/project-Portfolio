@@ -1,0 +1,124 @@
+.man-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--spacing-2big);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--spacing-2big) var(--spacing-large);
+    
+}
+
+.about-me {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-main);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: var(--opacity-low);
+    margin-left: auto;
+    margin-top: var(--spacing-2big);
+    margin-bottom: var(--spacing-large);
+}
+
+.MyName {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-2big);
+    line-height: var(--line-height-normal);
+    margin-bottom: var(--spacing-large);
+}
+
+.name {
+    color: var(--accent-blue-color);
+}
+
+.since_2025 {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-large);
+    max-width: 500px;
+    color: var(--main-text-color);
+}
+
+.man-section-container {
+    flex-shrink: 0;
+}
+
+.man-section-pictures {
+    width: 444px;
+    height: 316.59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.man-section-pictures img {
+    max-width: 100%;
+    height: auto;
+    margin-top: var(--spacing-3big);
+}
+
+.man-section-content {
+    display: grid;
+    margin-top: 110px;
+}
+
+.man-section-content img {
+    grid-area: 1/1;
+}
+
+.ghj {
+    width: 310.15px;
+    height: 290.51px;
+    left: 0px;
+    background: var(--gray-light);
+    border-radius: var(--border-radius-2big);
+    z-index: 1;
+}
+
+.photo {
+    width: 302.3px;
+    height: 603.38px;
+    top: -110.71px;
+    margin-left: var(--spacing-2big);
+    background: var(--gray-medium);
+    z-index: 2;
+}
+
+.posmotrite {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-main);
+    line-height: var(--line-height-large);
+    margin: 0;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.social-seti {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-1big);
+    margin-top: 100px;
+}
+
+.icons {
+    display: flex;
+    gap: var(--spacing-large);
+    margin-bottom: 30px;
+}
+
+.icons a {
+    display: inline-block;
+    transition: all 0.3s ease; /* Плавный переход для всех свойств */
+}
+
+.icons img {
+    width: 24px;
+    height: 24px;
+    transition: filter 0.3s ease; /* Плавный переход для фильтра */
+}
+

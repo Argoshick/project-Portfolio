@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* переменные */
+@import url('./base/peremennye.css');
+@import url('base/sbros.css');
+
+/* компоненты сайта */
+@import url('components/header-section.css');
+@import url('components/man-section.css');
+@import url('components/skills-section.css');
+@import url('components/experience-section.css');
+@import url('components/contact-section.css');
+@import url('components/footer-section.css');
+@import url('components/cards-section.css');
+
+/* тёмная тема */
+@import url('./themes/dark-theme-styles.css');

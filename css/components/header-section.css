@@ -1,0 +1,75 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--header-height);
+    margin-bottom: var(--spacing-2big);
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    z-index: 1000;
+    padding: 40px 10px;
+    background-color: var(--background-color);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navigation-list {
+    display: flex;
+    gap: var(--spacing-2big);
+    width: 456px;
+    height: 24px;
+    
+}
+
+.navigation-list li {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: var(--spacing-2big);
+    width: 456px;
+    height: 24px;
+}
+
+.nav a {
+    color: var(--main-text-color);
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: var(--font-size-medium);
+}
+
+.logo {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-normal);
+}
+
+.contact-knopka {
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: var(--border-radius-large);
+    padding: var(--spacing-medium);
+    width: 100px;
+    height: var(--button-height);
+    font-family: var(--font-family);
+    font-size: var(--font-size-medium);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 190px;
+}
+
+.theme-knopka {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: var(--spacing-large);
+}
+

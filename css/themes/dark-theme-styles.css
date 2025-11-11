@@ -1,0 +1,150 @@
+/* стили для тёмной темы */
+
+.dark-theme .skills-section,
+.dark-theme .experience-section {
+    background-color: var(--gray-light);
+}
+
+.dark-theme .skills span {
+    background-color: #303030;
+    color: var(--button-text-color);
+}
+
+.dark-theme .progress {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.dark-theme .progress-bar {
+    background: #1664EA;
+}
+
+.dark-theme .experience-card {
+    background: var(--gray-light);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark-theme .experience-card h2 {
+    color: #1664EA;
+}
+
+.dark-theme input {
+    border-bottom-color: rgba(255, 255, 255, 0.3);
+    color: var(--main-text-color);
+}
+
+.dark-theme textarea {
+    border-color: rgba(255, 255, 255, 0.3);
+    color: var(--main-text-color);
+}
+
+
+.dark-theme small {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.dark-theme .cards_card {
+    background-color: var(--gray-light);
+}
+
+.dark-theme .cards_card::before {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.dark-theme .cards_card .cards-button {
+    color: #1B1B1B;
+}
+
+.dark-theme footer .back-to-top-link {
+    color: #1664EA;
+}
+
+.dark-theme .title {
+    color: #FFFFFF40;
+}
+
+.dark-theme .contact-section .contacts-label {
+    color: #626060;
+}
+
+.dark-theme button .submit-knopka {
+    background-color: var(--button-background-color);
+}
+
+.dark-theme .header .theme-knopka {
+    color: var(--background-color)
+}
+
+.dark-theme .icons a {
+    background-color: var(--button-background-color);
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark-theme .cards_item {
+    border: 1px solid rgba(225, 225, 225, 1);
+}
+
+.dark-theme .experience_title-p {
+    color: rgba(225, 225, 225, 1);
+}
+
+.dark-theme .header {
+    background-color: #303030;
+   
+}
+
+.dark-theme .navigation-list a {
+    color: white;
+}
+
+.dark-theme .since-2025 p{
+     color: white;
+}
+
+.dark-theme .experience-section h2 {
+    color: white;
+}
+
+.dark-theme .experience-card h3 {
+    color: white;
+}
+
+.dark-theme .experience-card h2 {
+    color:var(--accent-blue-color);
+}
+
+.dark-theme .experience_title {
+    color: #626060;
+}
+
+.dark-theme .contacts-label {
+    color: #626060;
+}
+
+.dark-theme .contact-with-me {
+    color: white;
+}
+
+.dark-theme .contact-coop{
+    color: white;
+}
+
+.dark-theme .contact-info p  {
+    color: rgb(208, 202, 202);
+}
+
+.dark-theme .contact-info h3 {
+    color: white;
+}
+
+.dark-theme label {
+    color: white;
+}
+
+.dark-theme .by-clicking {
+    color: rgb(208, 202, 202);
+}
+
